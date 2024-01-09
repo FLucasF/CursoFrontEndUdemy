@@ -5,3 +5,48 @@ body {
 h3 {
     color: green;
 }
+
+ /* aprendendo a comentar em css */
+
+ /* classes */
+ .paragraph {
+    background-color: black;
+    color:aqua;
+    padding: 5px;
+ }
+
+ /* id */
+ #exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 45;
+ }
+
+ /* ordem das regras */ 
+ h2 {
+    border-bottom: 2px solid red;
+ }
+
+ .titulo {
+    border-bottom: 3px solid blue;
+ }
+
+ #algum-titulo {
+    border-bottom: 4px solid green;
+ }
+
+ /* nome de cores */
+ .color-name {
+    color: red;
+ }
+
+ /* hex */
+ .hex {
+    color: #1c6057
+ }
+
+ /*aprofundando em hex*/
+ .hex2 {
+    color: #a5f
+ }
