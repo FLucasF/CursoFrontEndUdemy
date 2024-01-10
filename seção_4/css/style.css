@@ -43,10 +43,65 @@ h3 {
 
  /* hex */
  .hex {
-    color: #1c6057
+    color: #1c6057;
  }
 
  /*aprofundando em hex*/
  .hex2 {
-    color: #a5f
+    color: #a5f;
  }
+
+.rgb {
+   color: rgb(255,0,0);
+}
+
+.rbg-mixed {
+   color: rgb(199,21,47);
+}
+
+.rgba {
+   color: rgba(100,199,45, 0.3);
+}
+
+.hsl {
+   color: hsl(100,20%,50%);
+}
+
+.bg {
+   background-color: #000;
+   color: yellow;
+}
+
+.bg-2 {
+   background-color: rgb(200,20,40);
+   color: #00eaff;
+}
+
+.bg-opacity {
+   background-color: green;
+   opacity: 0.2;
+}
+
+.rgba-opacity {
+   background-color: rgba(90,120,20, 0.2);
+   color: black;
+}
+
+.bg-image {
+   background-image: url("../css/img/nature.jpg");
+   padding: 10px;
+   color: #fff
+}
+
+.not-centered-bg, 
+.centered-bg {
+   height: 400px;
+   width: 400px;
+   background-image: url("../css/img/bridge.jpg");
+
+}
+
+.centered-bg {
+   background-position: center;
+   background-size: cover;
+}
