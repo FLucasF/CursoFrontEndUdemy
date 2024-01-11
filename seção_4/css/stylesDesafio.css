@@ -1,0 +1,14 @@
+#box-model-challenge {
+    margin: 15px; 
+    padding: 10px;
+    border: 5px solid red;
+    outline: 5px solid orange;
+    background-color: gray;
+}
+
+.challenge-title {
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+
