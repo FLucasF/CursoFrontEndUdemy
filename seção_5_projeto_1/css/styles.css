@@ -1,0 +1,80 @@
+html {
+    font-family: Helvetica;
+    background-color: #ddd;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: #ddd;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+
+}
+
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+
+/* Header */
+.header {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 80px;
+}
+
+.main-paragraph {
+    font-style: italic;
+}
+
+/* Imagem */
+.featured-image {
+    text-align: center;
+
+}
+
+/* biografia */
+.biografhy-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #000000d2;
+    border-bottom: 1px dashed #000000d2;
+}
+
+/* Quotes */
+.quotes-container {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.quotes-container p {
+    font-style: italic;
+}
+
+.interview {
+    margin: 80px 20px;
+    text-align: center;
+    border-top: 1px dashed #000000d2;
+    padding: 30px;
+}
+
+.interview-questions-answers {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-bottom: 1px dashed #000000d2;
+}
+
+.buy-gamer {
+    text-align: center;
+}
