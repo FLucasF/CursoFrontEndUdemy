@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário-RPG</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Cadastre seu personagem para jogar:</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Ficha do personagem de RPG</h1>
+                <p>
+                    Informe as caracteristicas e marque os opcionais que ele possui
+                </p>
+                <form>
+                    <div class="box-input">
+                        <label for="nome-personagem">
+                            Digite o nome do personagem <span class="required-field">*</span></label>
+                        <input type="text" name="nome" id="nome" class="block" minlenght="3" maxlength="14"
+                            placeholder="Nome do personagem" required />
+                    </div>
+
+                    <div class="box-input">
+                        <label for="raca-personagem">
+                            Digite a raça do personagem <span class="required-field">*</span></label>
+                        <input type="text" name="raca" id="raca" class="block" minlenght="3" maxlength="14"
+                            placeholder="Raça do personagem" required />
+                    </div>
+
+                    <div class="box-input">
+                        <label for="classe-personagem">
+                            Digite a classe do personagem <span class="required-field">*</span></label>
+                        <input type="text" name="classe" id="classe" class="block" minlenght="3" maxlength="14"
+                            placeholder="Classe do pernsagem" required />
+                    </div>
+
+                    <div class="box-input">
+                        <label for="idade-personagem">
+                            Digite a Idade do personagem <span class="required-field">*</span></label>
+                        <input type="text" name="idade" id="idade" class="block" minlenght="3" maxlength="14"
+                            placeholder="Idade do personagem" required />
+                    </div>
+
+
+                    <div class="box-input-atributo">
+                        <p>Atributos:</p>
+                        <label for="força">
+                            Digite a força do personagem <span class="required-field">*</span></label>
+                        <input type="text" name="atributo-forca" id="atributo-forca" class="block" minlenght="1"
+                            maxlength="3" placeholder="Força" required /><br>
+
+                        <label for="agilidade">
+                            Digite a agilidade do personagem <span class="required-field">*</span></label>
+                        <input type="text" name="atributo-agilidade" id="atributo-agilidade" class="block" minlenght="1"
+                            maxlength="3" placeholder="Agilidade" required /><br>
+
+                        <label for="intelecto">
+                            Digite a intelecto do personagem <span class="required-field">*</span></label>
+                        <input type="text" name="atributo-intelecto" id="atributo-intelecto" class="block" minlenght="1"
+                            maxlength="3" placeholder="Intelecto" required /><br>
+
+                        <label for="carisma">
+                            Digite a carisma do personagem <span class="required-field">*</span></label>
+                        <input type="text" name="atributo-carisma" id="atributo-carisma" class="block" minlenght="1"
+                            maxlength="3" placeholder="Carisma" required /><br>
+                    </div>
+
+                    <div class="mochila">
+                        <p>Mochila</p>
+                        <textarea name="mochila" id="mochila"></textarea>
+                    </div>
+
+                    <div>
+                        <p>Gold:</p>
+                        <input type="text" name="gold" id="gold"><br>
+                        <p>xp:</p>
+                        <input type="text" name="xp" id="xp"><br>
+                    </div>
+
+                    <input type="submit" value="Salvar">
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

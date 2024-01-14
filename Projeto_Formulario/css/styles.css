@@ -1,0 +1,120 @@
+/* reset: eliminação de estilo básico, para trabalhar apenas com o estilo do CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #00e1d9;
+}
+
+
+h1, h2, h3, h4, h5 {
+    color: #333;
+}
+
+p, label {
+    color: #444;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccccccd7;
+    width: 300px;
+}
+
+input[type="text"], input[type="date"], input[type="number"], input[type="file"] {
+    width: 200px;
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+}
+
+/* page header */
+
+.header {
+    height: 160px;
+    padding: 20px;
+    background-color: #5b0e2d;
+}
+
+.header h3 {
+    color: white;
+    margin-top: 0;
+}
+
+/* form container */
+.form-container {
+    background-color: #ffa781;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+/* form header */
+
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p {
+    color: purple;
+    border-bottom: 2px solid purple;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+.form-body {
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.required-field {
+    color: red;
+}
+
+.bot-input {
+    margin-bottom: 35px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin-right: 0 30px 30px 0;
+}
+
+.bot-input {
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    background-color: purple;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    border-color: purple;
+    color: purple;
+}
