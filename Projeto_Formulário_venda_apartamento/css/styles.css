@@ -6,6 +6,7 @@ html {
     padding-left: 15px;
     margin: 0 auto;
     background-color: #575200;
+    color: #262626;
 }
 
 p {
@@ -20,10 +21,32 @@ input {
     border-left: none;
 }
 
+textarea {
+    height: 200px;
+    width: 80%;
+    border-radius: 5px;
+    resize:none;
+    
+}
+
 /* body */
+.nome-imoveis {
+    text-align: center;
+    font-size: 15px;
+}
+
 .title {
-    font-size: 70px;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 15px;
+    padding-top: 60px;
     color: #fff;
+}
+
+.img {
+    width: 100px;
+    margin: auto;
+    display: block;
 }
 
 .container {
@@ -35,6 +58,7 @@ input {
 }
 .radio {
     display: inline-block;
+    text-align: center;
 }
 
 .informacoes-dono {
@@ -45,4 +69,40 @@ input {
 .segunda-linha-info-dono,
 .terceira-linha-info-dono {
     text-align: center;
+}
+
+.tipo-imovel {
+    text-align: center;
+}
+
+.condicoes-pagamento {
+    text-align: center;
+}
+
+.descricao-text {
+    text-align: center;
+}
+
+.imagem-inserir {
+    text-align: center;
+}
+
+.enviar {
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.btn-enviar {
+    background-color: #575200;
+    width: 200px;
+    height: 100px;
+    color: #eeecec;
+    font-weight: bolder;
+}
+
+.btn-enviar:hover {
+    background-color: #eeecec;
+    color: #575200;
 }
