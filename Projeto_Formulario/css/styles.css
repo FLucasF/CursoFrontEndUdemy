@@ -26,6 +26,9 @@ input {
 
 input[type="text"], input[type="date"], input[type="number"], input[type="file"] {
     width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    text-indent: 5px;
 }
 
 textarea {
@@ -39,6 +42,10 @@ textarea {
     height: 160px;
     padding: 20px;
     background-color: #5b0e2d;
+    letter-spacing: 10px;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
 }
 
 .header h3 {
@@ -63,35 +70,45 @@ textarea {
 }
 
 .form-header p {
-    color: purple;
-    border-bottom: 2px solid purple;
+    color: #333;
+    border-bottom: 2px solid #5b0e2d;
     width: 100px;
     text-align: center;
     margin: 0 auto;
     text-transform: uppercase;
+    font-weight: bold;
     height: 45px;
     line-height: 45px;
 }
 
+/* form body */
 .form-body {
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.form-title {
     margin-bottom: 15px;
 }
 
 .form-body p {
+    margin-top: 20px;
     margin-bottom: 20px;
+    font-size: large;
+    font-weight: bold;
 }
 
 .required-field {
     color: red;
 }
 
-.bot-input {
+.box-input {
     margin-bottom: 35px;
 }
 
 .block {
     display: block;
-}
+}   
 
 .optional-box {
     display: inline-block;
@@ -102,19 +119,28 @@ textarea {
     margin-bottom: 15px;
 }
 
+.mochila p{
+    padding-top: 0px;
+}
+
 .btn-submit {
+    margin-top: 25px;
     background-color: purple;
     color: #fff;
     border: 2px solid transparent;
     width: 150px;
-    height: 150px;
+    height: 75px;
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.5s;
+    
 }
 
 .btn-submit:hover {
     background-color: #fff;
     border-color: purple;
     color: purple;
+    
 }
+
+

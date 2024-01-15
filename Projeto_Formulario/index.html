@@ -12,12 +12,13 @@
 <body>
     <div class="container">
         <div class="header">
-            <h3>Cadastre seu personagem para jogar:</h3>
+            <h3>Cadastre seu personagem para jogar</h3>
         </div>
         <div class="form-container">
             <div class="form-header">
-                <p>Formulário</p>
+                <p>Ficha</p>
             </div>
+
             <div class="form-body">
                 <h1 class="form-title">Ficha do personagem de RPG</h1>
                 <p>
@@ -52,29 +53,35 @@
                             placeholder="Idade do personagem" required />
                     </div>
 
-
-                    <div class="box-input-atributo">
-                        <p>Atributos:</p>
+                    <p>Atributos:</p>
+                    <div class="box-input">
                         <label for="força">
                             Digite a força do personagem <span class="required-field">*</span></label>
                         <input type="text" name="atributo-forca" id="atributo-forca" class="block" minlenght="1"
-                            maxlength="3" placeholder="Força" required /><br>
+                            maxlength="3" placeholder="Força" required />
+                    </div>
 
+                    <div class="box-input">
                         <label for="agilidade">
                             Digite a agilidade do personagem <span class="required-field">*</span></label>
                         <input type="text" name="atributo-agilidade" id="atributo-agilidade" class="block" minlenght="1"
-                            maxlength="3" placeholder="Agilidade" required /><br>
+                            maxlength="3" placeholder="Agilidade" required />
+                    </div>
 
+                    <div class="box-input">
                         <label for="intelecto">
                             Digite a intelecto do personagem <span class="required-field">*</span></label>
                         <input type="text" name="atributo-intelecto" id="atributo-intelecto" class="block" minlenght="1"
-                            maxlength="3" placeholder="Intelecto" required /><br>
+                            maxlength="3" placeholder="Intelecto" required />
+                    </div>
 
+                    <div class="box-input">
                         <label for="carisma">
                             Digite a carisma do personagem <span class="required-field">*</span></label>
                         <input type="text" name="atributo-carisma" id="atributo-carisma" class="block" minlenght="1"
-                            maxlength="3" placeholder="Carisma" required /><br>
+                            maxlength="3" placeholder="Carisma" required />
                     </div>
+
 
                     <div class="mochila">
                         <p>Mochila</p>
@@ -83,12 +90,12 @@
 
                     <div>
                         <p>Gold:</p>
-                        <input type="text" name="gold" id="gold"><br>
+                        <input type="text" name="gold" id="gold" placeholder="Digite a quantidade de gold"><br>
                         <p>xp:</p>
-                        <input type="text" name="xp" id="xp"><br>
+                        <input type="text" name="xp" id="xp" placeholder="Digite a quantidade de xp"><br>
                     </div>
 
-                    <input type="submit" value="Salvar">
+                    <input class="btn-submit" type="submit" value="Salvar">
                 </form>
             </div>
 
