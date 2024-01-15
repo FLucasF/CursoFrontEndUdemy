@@ -7,11 +7,13 @@ html {
     margin: 0 auto;
     background-color: #575200;
     color: #262626;
+    font-size: 20px;
 }
 
 p {
     font-weight: bold;
     text-align: center;
+    font-size: 30px;
 }
 
 input {
@@ -59,6 +61,7 @@ textarea {
 .radio {
     display: inline-block;
     text-align: center;
+
 }
 
 .informacoes-dono {
@@ -68,7 +71,27 @@ textarea {
 .primeira-linha-info-dono,
 .segunda-linha-info-dono,
 .terceira-linha-info-dono {
-    text-align: center;
+    padding-left: 100px;
+}
+
+.primeira-linha-info-ap,
+.segunda-linha-info-ap,
+.terceira-linha-info-ap {
+    padding-left: 100px;
+}
+
+.primeira-linha-info-dono input,
+.segunda-linha-info-dono input,
+.terceira-linha-info-dono input {
+    width: 400px;
+    height: 18px;
+}
+
+.primeira-linha-info-ap input,
+.segunda-linha-info-ap input,
+.terceira-linha-info-ap input {
+    width: 400px;
+    height: 18px;
 }
 
 .tipo-imovel {
