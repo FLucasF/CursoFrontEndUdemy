@@ -1,0 +1,15 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+/* body */
+
+.radio {
+    display: inline-block;
+}
+
+.informacoes-dono {
+    margin-top: 50px;
+}

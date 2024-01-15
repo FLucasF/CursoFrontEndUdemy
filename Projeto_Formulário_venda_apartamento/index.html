@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário-venda-apartamento</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <h1>Autorização de venda de imóvel</h1>
+
+    <!-- opções de imóveis -->
+    <form>
+        <div class="radio">
+            <input type="radio" value="casa" name="propety">
+            <label for="casa">Casa</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" value="apartamento" name="propety">
+            <label for="apartamento">Apartamento</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" value="sobrado" name="propety">
+            <label for="sobrado">Sobrado</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" value="terreno" name="propety">
+            <label for="terreno">Casa</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" value="comercial" name="propety">
+            <label for="comercial">Comercial</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" value="galpao" name="propety">
+            <label for="galpao">Galpão</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" value="rural" name="propety">
+            <label for="rural">Rural</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" value="outro" name="propety">
+            <label for="outro">Outro</label>
+        </div>
+
+        <!-- Informações do dono -->
+        <div class="informacoes-dono">
+            <label for="nome">Nome:</label>
+            <input type="text">
+
+            <label for="cpf">Cpf:</label>
+            <input type="text"><br>
+
+            <label for="rg">Rg:</label>
+            <input type="text">
+
+            <label for="telefone-fixo">Telefone-Fixo:</label>
+            <input type="text">
+
+            <label for="celular">Celular:</label>
+            <input type="text">
+
+            <label for="email">Email:</label>
+            <input type="text">
+        </div>
+
+        <div class="endereco">
+            <input type="text">
+            <label for="endereco">Endereço</label>
+
+            <input type="text">
+            <label for="bairro">Bairro</label>
+
+            <input type="text">
+            <label for="cidade">Cidade</label>
+
+            <input type="text">
+            <label for="estado">Estado</label>
+
+            <input type="text">
+            <label for="cep">CEP / Código postal</label>
+        </div>
+
+        <div class="descricao-imovel">
+            <textarea name="descricao" id="descricao" cols="30" rows="10"></textarea>
+            <label for="descricao">Digite aqui as informações do imóvel</label>
+        </div>
+
+        <div class="medida-imovel">
+            <p>Informe as seguintes medidas do imóvel:</p>
+
+            <label for="area-util">Área útil:</label>
+            <input type="text">
+
+            <label for="area-total">Área total:</label>
+            <input type="text">
+
+            <label for="frente">Frente:</label>
+            <input type="text">
+
+            <label for="fundo">Fundo:</label>
+            <input type="text">
+        </div>
+
+        <div class="pagamento-imovel">
+            <label for="condicao">Condições de pagamento do imóvel</label>
+            <div class="checkbox">
+                <input type="checkbox" name="a-vista" id="a-vista">
+                <label for="a-vista">A vista</label>
+
+                <input type="checkbox" name="parcelado" id="parcelado">
+                <label for="parcelado">Parcelado</label>
+
+                <input type="checkbox" name="outro-imovel" id="outro-imovel">
+                <label for="outro-imovel">Outro imóvel</label>
+            </div>
+        </div>
+
+    </form>
+
+
+</body>
+
+</html>
