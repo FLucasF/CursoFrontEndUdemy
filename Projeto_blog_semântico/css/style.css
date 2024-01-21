@@ -144,6 +144,6 @@ a:hover {
 /*responsivo*/
 @media(max-width: 450px) {
     .container {
-        flex-wrap: wrap;
+        flex-wrap: wrap              ;
     }
 }
