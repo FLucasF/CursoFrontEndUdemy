@@ -2,14 +2,14 @@
 console.log(document.body.childNodes);
 console.log(document.body.childNodes[1]);
 console.log(document.body.childNodes[1].childNodes);
-console.log(document.body.childNodes[1].childNodes[1].textContent);
+console.log(document.body.childNodes[1].childNodes[1]);
 
 //Selecionando por tag
 const listItens = document.getElementsByTagName("li");
 console.log(listItens);
 
 //Selecionando por id
-const title = document.getElementsById("title");
+const title = document.getElementById("title");
 console.log(title);
 
 //Selecionando por classe
