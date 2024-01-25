@@ -73,14 +73,13 @@ mouseEvent.addEventListener("dblclick", () => {
 });
 
 //Movimento do mouse
-document.addEventListener("mousemove", (e) => {
+window.addEventListener("mousemove", (e) => {
     console.log(`no eixo X: ${e.x}`);
 });
 
-document.addEventListener("mousemove", (e) => {
+window.addEventListener("mousemove", (e) => {
     console.log(`no eixo Yx': ${e.y}`);
 });
-
 //Evento no scroll
 window.addEventListener("scroll", (e) => {
     if(window.pageYOffset > 200) console.log("Passamos 200px");
@@ -111,7 +110,7 @@ const debouce = (f, delay) => {
     return(...args) => {
         if(timeout) clearTimeout(timeout);
         timeout = setTimeout(() => {
-            f.apply(args);
+            f.apply(arguments);
         }, delay);
     };
 };
