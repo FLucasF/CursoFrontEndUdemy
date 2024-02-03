@@ -9,6 +9,8 @@ const Events = () => {
         if(x) return <h1>Renderizando isso</h1>
         else return <h1>Renderizando aquilo</h1>
     }
+
+    //return 10 > 2 && <p>Carregando</p>;
     
     return (
         <div>
